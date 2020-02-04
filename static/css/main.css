@@ -1,0 +1,176 @@
+
+body{
+    position: relative;
+}
+
+.navbar {
+    background-color: #343a40;
+    opacity: .9;
+}
+.footer {
+    
+    opacity: .9;
+    font-weight: 100;
+
+}
+.top-content{
+    z-index: 1;
+    background-color: black;
+    padding: .5rem;
+    opacity: .97;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    width: 90vw;
+    margin-left: auto;  
+    margin-right: auto;  
+}
+.project-content{
+    z-index: 1;
+    background-color: black;
+    padding:.5rem;
+    opacity: .97;
+    width: 90vw;
+    margin-left: auto;  
+    margin-right: auto;        
+}
+.contact-content{
+    z-index: 10;
+    background-color: black;
+    padding: .5rem;
+    opacity: .97;
+    width: 90vw;
+    margin-left: auto;  
+    margin-right: auto;        
+}
+.skills-content{
+    z-index: 1;
+    background-color: #1abc9c;
+    padding: .5rem;
+    opacity: .97;
+    width: 90vw;
+    margin-left: auto;  
+    margin-right: auto;        
+}
+.what-content{
+    z-index: 1;
+    background-color: #1abc9c;
+    padding: .5rem;
+    opacity: .97;
+    width: 90vw;
+    margin-left: auto;  
+    margin-right: auto;
+}
+.intro {
+    background: url('../img/carbon3Fade.png') no-repeat fixed;
+    opacity: .8;
+    background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: relative;
+    z-index: -1;
+
+}
+.card{
+    background-color: transparent;
+}
+.icon-block{
+    display: inline-block; 
+    margin: 1rem; 
+
+}
+.bg-orange{
+    background-color: orange;
+}
+.bg-grey{
+    background-color: gray;
+}
+.bg-lightgreen{
+    background-color: lightgreen;
+}
+.bg-lightblue{
+    background-color: lightsteelblue;
+}
+.bg-darkblue{
+    background-color: darkblue;
+}
+.btn{
+    background-color: #1abc9c;
+}
+.projects{
+
+    background: url('../img/carbon3Fade.png') no-repeat fixed;
+    opacity: .8;
+    background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: relative;
+  
+
+}
+.contact{
+
+    background: url('../img/carbon3Fade.png') no-repeat fixed;
+    opacity: .8;
+    background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: relative;
+    
+
+}
+.sector {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+
+}
+.footer {
+    
+    background-color:#343a40;
+}
+.content{
+    margin-right: 3%;
+    margin-left: 3%;
+}
+.reverse-colour{
+    background-color: #1abc9c !important;    
+}
+.reverse-colour2{
+    background-color: #343a40 !important;    
+}
+
+.bg-1 {
+    background-color: #1abc9c; /* Green */
+    color: #ffffff;
+  }
+  .bg-2 {
+    background-color: #343a40; /* Dark Blue */
+    color: #ffffff;
+  }
+  .photo{
+    border-radius: 50%;
+
+  }
+
+
+  
