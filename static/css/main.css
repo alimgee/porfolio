@@ -13,8 +13,11 @@ body{
     font-weight: 100;
 
 }
-.top-content{
+.photo{
     z-index: 1;
+}
+.top-content{
+    
     background-color: black;
     padding: .5rem;
     opacity: .97;
@@ -29,16 +32,15 @@ body{
     background-color: black;
     padding:.5rem;
     opacity: .97;
-    width: 90vw;
     margin-left: auto;  
     margin-right: auto;        
 }
 .contact-content{
     z-index: 10;
     background-color: black;
-    padding: .5rem;
-    opacity: .97;
-    width: 90vw;
+    padding: 0 5rem 0 5rem;
+    opacity: .9;
+   
     margin-left: auto;  
     margin-right: auto;        
 }
@@ -46,8 +48,8 @@ body{
     z-index: 1;
     background-color: #1abc9c;
     padding: .5rem;
-    opacity: .97;
-    width: 90vw;
+    opacity: .9;
+ 
     margin-left: auto;  
     margin-right: auto;        
 }
@@ -55,10 +57,15 @@ body{
     z-index: 1;
     background-color: #1abc9c;
     padding: .5rem;
-    opacity: .97;
-    width: 90vw;
+    opacity: .9;  
     margin-left: auto;  
     margin-right: auto;
+    
+}
+.sector{
+    background: url('../img/carbon3Fade.png') no-repeat fixed;
+    opacity: .8;
+    background-size: cover; 
 }
 .intro {
     background: url('../img/carbon3Fade.png') no-repeat fixed;
@@ -74,7 +81,7 @@ body{
     -ms-flex-pack: center;
     justify-content: center;
     position: relative;
-    z-index: -1;
+ 
 
 }
 .card{
@@ -82,8 +89,11 @@ body{
 }
 .icon-block{
     display: inline-block; 
-    margin: 1rem; 
+   
 
+}
+.icon-img{
+    height: 2rem;
 }
 .bg-orange{
     background-color: orange;
